@@ -1,8 +1,9 @@
-class Circle{
-    constructor(radius:double, color:string){
-        this.radius:double= radius:double;
-        this.color:string= color:string;
+class Circle {
+    constructor(radius, color) {
+        this.radius = radius;
+        this.color = color;
     }
 }
-var c1 = new Circle("1.0","RED");
+
+const c1 = new Circle(1.0, "RED");
 console.log(c1);
